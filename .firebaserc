@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "telemarch-app": {
+      "hosting": {
+        "telemarch": [
+          "telemarch-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "telemarch-app"
+  }
+}
