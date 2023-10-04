@@ -1,0 +1,21 @@
+.post-container {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.post-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width : 576px) {
+    .post-container {
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .post-container img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
