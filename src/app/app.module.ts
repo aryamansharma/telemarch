@@ -15,7 +15,7 @@ import { MainComponent } from './main/main.component';
 import { PostsComponent } from './account-components/home/posts/posts.component';
 import { HomeComponent } from './account-components/home/home.component';
 import { AccountSettingsComponent } from './account-components/account-settings/account-settings.component';
-import { CommentComponent } from './home/comment/comment.component';
+import { CommentComponent } from './account-components/home/comment/comment.component';
 
 @NgModule({
   declarations: [
