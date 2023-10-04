@@ -1,6 +1,10 @@
 .post-container {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #cecece;
+}
+
+.post-description {
+    padding: 1.25rem;
 }
 
 .post-container img {
@@ -8,10 +12,23 @@
     object-fit: contain;
 }
 
+.control-btns-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.like-btn-container {
+    margin-left: 2rem;
+}
+
+.share-btn-container {
+    margin-right: 2rem;
+}
+
 @media screen and (max-width : 576px) {
     .post-container {
         width: 100%;
-        background-color: whitesmoke;
     }
 
     .post-container img {
