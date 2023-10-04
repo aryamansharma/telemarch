@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-container svg {
@@ -22,8 +24,6 @@
 
 .logo {
     margin-left: 1rem;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .logo h1 {
@@ -38,12 +38,14 @@
 
 .navbar ul {
     display: flex;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar li {
     padding: 0 .75rem;
+}
+
+.navbar li:hover {
+    background-color: #555;
 }
 
 @media screen and (max-width : 576px) {
@@ -98,21 +100,4 @@
         display: flex;
         align-items: center;
     }
-
-    .navbar li:hover {
-        background-color: #555;
-    }
 }
-
-/* Responsivr Navbar */
-
-/* @media (max-width : 576px) {
-    .primary-navigation {
-        position: fixed;
-        inset: 0 0 0 30%;
-        flex-direction: column;
-        padding: min(30vh, 10rem) 2em;
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(.25rem);
-    }
-} */
