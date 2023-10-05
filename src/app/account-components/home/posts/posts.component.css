@@ -26,6 +26,25 @@
     margin-right: 2rem;
 }
 
+.comment-input {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    height: 1.75rem;
+    width: 80%;
+}
+
+.comment-popup-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.comment-input-container {
+    flex-grow: 1;
+}
+
 @media screen and (max-width : 576px) {
     .post-container {
         width: 100%;
