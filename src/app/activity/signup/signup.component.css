@@ -1,0 +1,29 @@
+.form-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../assets/signup-page-bg.jpg);
+    object-fit: contain;
+}
+
+.input-fields-container {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-fields-container input {
+    margin-top: .5rem;
+    height: 1.5rem;
+}
+
+.firstname-container {
+    margin-top: 2rem;
+}
+
+.submit-btn-container {
+    display: flex;
+    margin-bottom: 2rem;
+}

@@ -15,6 +15,8 @@ import { MainComponent } from './main/main.component';
 import { PostsComponent } from './account-components/home/posts/posts.component';
 import { HomeComponent } from './account-components/home/home.component';
 import { AccountSettingsComponent } from './account-components/account-settings/account-settings.component';
+import { SignupComponent } from './activity/signup/signup.component';
+import { SigninComponent } from './activity/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { AccountSettingsComponent } from './account-components/account-settings/
     PostsComponent,
     HomeComponent,
     AccountSettingsComponent,
+    SignupComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
