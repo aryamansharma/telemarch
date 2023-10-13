@@ -27,3 +27,11 @@
     display: flex;
     margin-bottom: 2rem;
 }
+
+.submit-btn {
+    margin-right: 1rem;
+}
+
+.submit-btn-container button {
+    padding: .5rem;
+}
